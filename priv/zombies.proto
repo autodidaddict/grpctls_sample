@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package zombies;
+
+service Zombies {
+    rpc ReportSighting(stream Sighting) returns (SightingSummary) {}
+    rpc ZombiesNearby(SearchTarget) returns (stream Sighting) {}
+}
+
+message Location {
+    int32 latitude = 1;
+    int32 longitude = 2;
+}
+
+message Sighting {
+    string name = 1;
+    Location location = 2;
+}
+
+message SightingSummary {
+    int32 sighting_count = 1;
+    float radius = 2;
+}
+
+message SearchTarget {
+    Location center = 1;
+    float radius = 2;
+}

@@ -1,0 +1,68 @@
+2018-01-10 10:06:44.021 [error] <0.227.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.232.0> exit with reason normal in context child_terminated
+2018-01-10 10:06:44.053 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-10 10:06:44.054 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-10 10:06:44.056 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-10 10:06:44.056 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-10 10:06:44.057 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-10 10:06:44.060 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-10 10:06:44.064 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-10 10:06:44.064 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-10 10:13:05.942 [error] <0.175.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.180.0> exit with reason normal in context child_terminated
+2018-01-10 10:13:05.963 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-10 10:13:05.965 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-10 10:13:05.966 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-10 10:13:05.966 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-10 10:13:05.968 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-10 10:13:05.971 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-10 10:13:05.972 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-10 10:13:05.972 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-10 10:13:05.974 [error] <0.231.0> Supervisor 'Elixir.Zombieserver' had child 'Elixir.Zombieserver.Data' started with 'Elixir.Zombieserver.Data':start_link() at undefined exit with reason {'EXIT',{function_clause,[{'Elixir.Zombieserver.Data','-load_zombies/1-fun-0-',[{<<"location">>,#{<<"latitude">> => 407838351,<<"longitude">> => -746143763}}],[{file,"lib/data.ex"},{line,16}]},{'Elixir.Enum','-map/2-fun-0-',3,[{file,"lib/enum.ex"},{line,1274}]},{lists,foldl,3,[{file,"lists.erl"},{line,1263}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,1843}]},{'Elixir.Zombieserver.Data',start_link,0,[{file,"lib/data.ex"},{line,5}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},...]},...]}} in context start_error
+2018-01-10 10:13:05.975 [error] <0.229.0> CRASH REPORT Process <0.229.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.Zombieserver.Data',{'EXIT',{function_clause,[{'Elixir.Zombieserver.Data','-load_zombies/1-fun-0-',[{<<"location">>,#{<<"latitude">> => 407838351,<<"longitude">> => -746143763}}],[{file,"lib/data.ex"},{line,16}]},{'Elixir.Enum','-map/2-fun-0-',3,[{file,"lib/enum.ex"},{line,1274}]},{lists,foldl,3,[{file,"lists.erl"},{line,1263}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,1843}]},{'Elixir.Zombieserver.Data',start_link,0,[{file,"lib/data.ex"},{line,...}]},...]}}}},...} in application_master:init/4 line 134
+2018-01-10 10:16:20.728 [error] <0.167.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.172.0> exit with reason normal in context child_terminated
+2018-01-10 10:16:20.757 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-10 10:16:20.759 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-10 10:16:20.761 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-10 10:16:20.761 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-10 10:16:20.763 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-10 10:16:20.767 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-10 10:16:20.769 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-10 10:16:20.769 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-14 12:21:37.100 [error] <0.237.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.242.0> exit with reason normal in context child_terminated
+2018-01-14 12:21:37.123 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-14 12:21:37.124 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-14 12:21:37.126 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-14 12:21:37.126 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-14 12:21:37.127 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-14 12:21:37.132 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-14 12:21:37.134 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-14 12:21:37.134 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-14 12:55:46.072 [error] <0.175.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.180.0> exit with reason normal in context child_terminated
+2018-01-14 12:55:46.097 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-14 12:55:46.099 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-14 12:55:46.101 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-14 12:55:46.101 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-14 12:55:46.103 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-14 12:55:46.107 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-14 12:55:46.109 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-14 12:55:46.109 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-14 12:57:09.610 [error] <0.175.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.180.0> exit with reason normal in context child_terminated
+2018-01-14 12:57:09.631 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-14 12:57:09.633 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-14 12:57:09.635 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-14 12:57:09.635 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-14 12:57:09.636 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-14 12:57:09.639 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-14 12:57:09.641 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-14 12:57:09.641 [info] <0.33.0> Application grpc started on node nonode@nohost
+2018-01-14 12:57:20.025 [warning] <0.32.0> lager_error_logger_h dropped 68 messages in the last second that exceeded the limit of 50 messages/sec
+2018-01-14 12:57:20.025 [info] <0.341.0> TLS server: In state certify received CLIENT ALERT: Fatal - Handshake Failure
+
+2018-01-14 12:59:48.277 [error] <0.167.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.172.0> exit with reason normal in context child_terminated
+2018-01-14 12:59:48.299 [info] <0.33.0> Application lager started on node nonode@nohost
+2018-01-14 12:59:48.301 [info] <0.33.0> Application protobuf started on node nonode@nohost
+2018-01-14 12:59:48.303 [info] <0.33.0> Application hpack started on node nonode@nohost
+2018-01-14 12:59:48.303 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2018-01-14 12:59:48.304 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2018-01-14 12:59:48.307 [info] <0.33.0> Application ranch started on node nonode@nohost
+2018-01-14 12:59:48.309 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2018-01-14 12:59:48.309 [info] <0.33.0> Application grpc started on node nonode@nohost

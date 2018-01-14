@@ -1,0 +1,65 @@
+2018-01-10 10:06:44 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.232.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-10 10:13:05 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.180.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-10 10:13:05 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Zombieserver'}
+     Context:    start_error
+     Reason:     {'EXIT',{function_clause,[{'Elixir.Zombieserver.Data','-load_zombies/1-fun-0-',[{<<"location">>,#{<<"latitude">> => 407838351,<<"longitude">> => -746143763}}],[{file,"lib/data.ex"},{line,16}]},{'Elixir.Enum','-map/2-fun-0-',3,[{file,"lib/enum.ex"},{line,1274}]},{lists,foldl,3,[{file,"lists.erl"},{line,1263}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,1843}]},{'Elixir.Zombieserver.Data',start_link,0,[{file,"lib/data.ex"},{line,5}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Zombieserver.Data'},{mfargs,{'Elixir.Zombieserver.Data',start_link,[]}},{restart_type,permanent},{shutdown,infinity},{child_type,supervisor}]
+
+2018-01-10 10:13:05 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.229.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Zombieserver.Data',{'EXIT',{function_clause,[{'Elixir.Zombieserver.Data','-load_zombies/1-fun-0-',[{<<"location">>,#{<<"latitude">> => 407838351,<<"longitude">> => -746143763}}],[{file,"lib/data.ex"},{line,16}]},{'Elixir.Enum','-map/2-fun-0-',3,[{file,"lib/enum.ex"},{line,1274}]},{lists,foldl,3,[{file,"lists.erl"},{line,1263}]},{'Elixir.Enum',map,2,[{file,"lib/enum.ex"},{line,1843}]},{'Elixir.Zombieserver.Data',start_link,0,[{file,"lib/data.ex"},{line,5}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]}]}}}},{'Elixir.Zombieserver.App',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.228.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.230.0>,normal}]
+    links: [<0.228.0>,<0.33.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 211
+  neighbours:
+2018-01-10 10:16:20 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.172.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-14 12:21:37 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.242.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-14 12:55:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.180.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-14 12:57:09 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.180.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2018-01-14 12:59:48 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.172.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
