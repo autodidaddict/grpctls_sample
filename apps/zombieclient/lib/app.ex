@@ -8,7 +8,11 @@ defmodule Zombieclient.App do
     def start(_type, _args) do
         import Supervisor.Spec
 
-        cred = GRPC.Credential.new(ssl: [cacertfile: @ca_cert_path, certfile: @cert_path, keyfile: @key_path])
+        cred = GRPC.Credential.new(ssl: [cacertfile: @ca_cert_path, 
+                certfile: @cert_path, 
+                keyfile: @key_path,
+                server_name_indication: 'zombieserver',
+                verify: :verify_peer])
 
         children = [
             supervisor(Zombieclient.Consumer, [cred]),            
